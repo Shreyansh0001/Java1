@@ -12,10 +12,9 @@ public class Hash_SEt {
         ht.add("Ash");
         ht.add("Dope");
 
-    //  ht.remove("Rope");
-
-
+        ht.remove("Rope");
         System.out.println(ht);
+
 
 }
 
