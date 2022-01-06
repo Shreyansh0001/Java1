@@ -15,13 +15,13 @@ public class Streamexample {
         names.add("xyz");
         names.add("qwer");
 
-       // long start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
        // List<String> filtered_name = names.stream().filter(name -> name.startsWith("a")).map(name -> name.toUpperCase()).collect(Collectors.toList());
         String filtered_name = names.stream().filter(name -> name.startsWith("a")).map(name -> name.toUpperCase()).findFirst().orElse(null);
         //long end = System.currentTimeMillis();
         //System.out.println("Stream Diff = " + (end - start));
         System.out.println(filtered_name);
-        //start = System.currentTimeMillis();
+        start = System.currentTimeMillis();
 //        for (String name: names) {
 //                if (name.startsWith("a")) {
 //                    System.out.println(name);

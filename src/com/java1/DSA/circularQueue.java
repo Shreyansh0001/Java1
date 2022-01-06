@@ -1,4 +1,4 @@
-package com.java1;
+package com.java1.DSA;
 
 public class circularQueue {
 
