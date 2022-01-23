@@ -7,16 +7,12 @@ public class BinaryPrime {
         Scanner sc = new Scanner(System.in);
         int test = sc.nextInt();
         sc.nextLine();
-        while(test-- != 0)
-        {
+        while (test-- != 0) {
             String input = sc.nextLine();
-            boolean flag = false;
-            if (input.contains("10") || input.contains("11")){
-                    flag = true;
-            }
-            if(flag){
+            boolean flag = input.contains("10") || input.contains("11");
+            if (flag) {
                 System.out.println("Yes");
-            }else{
+            } else {
                 System.out.println("No");
             }
         }
