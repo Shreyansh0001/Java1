@@ -1,6 +1,4 @@
-package com.java1;
-
-import java.util.Scanner;
+package com.java1.BAsic;
 
 public class linked_List {
     /*

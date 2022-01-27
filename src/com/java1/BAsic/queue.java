@@ -1,4 +1,4 @@
-package com.java1;
+package com.java1.BAsic;
 
 //enqueue, dequeue, isempty, isfull, peak, print
 

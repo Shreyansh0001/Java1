@@ -1,6 +1,6 @@
 //push,pop,isempty,isfull,printstack
 
-package com.java1;
+package com.java1.BAsic;
 
 class Stack{
     int arr[];

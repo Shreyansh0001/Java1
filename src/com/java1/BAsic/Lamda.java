@@ -1,4 +1,4 @@
-package com.java1;
+package com.java1.BAsic;
         /*
         1.Creating an interface i.e it will only have the function declaration.
         2.Create an object of the interface and provide the arguments if any and
