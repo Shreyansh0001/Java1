@@ -1,4 +1,4 @@
-package com.java1.DSA;
+package com.java1.DSA.BinarySearch;
 
 public class BinarySearch {
     /*int binarySearch(int[] arr, int key, int l, int r) {
